@@ -1,0 +1,121 @@
+<ngb-carousel *ngIf="img">
+    <ng-template ngbSlide>
+      <div class="img-fluid max-width: 100%">
+        <img class="carosal-img" [src]="img[0]" alt="Random first slide">
+      </div>
+      <div class="carousel-caption text-success">
+        <h3 class="font-weight-bold">INTERNSHIP</h3>
+        <p class="font-weight-bold">WE PROVIDE ONLINE AND OFFLINE INTERNSHIP</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="img-fluid max-width: 100%">
+        <img class="carosal-img" [src]="img[1]" alt="Random second slide">
+      </div>
+      <div class="carousel-caption ">
+        <h3 class="font-weight-bold">TRAINING</h3>
+        <p class="font-weight-bold">WE PROVIDE ALL TECHNICAL & NON-TECHNICAL TRAINING</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="img-fluid max-width: 100%">
+        <img class="carosal-img" [src]="img[2]" alt="Random third slide">
+      </div>
+      <div class="carousel-caption text-dark">
+        <h3 class="font-weight-bold">PROJECT</h3>
+        <p class="font-weight-bold">IT IS A BEST PLATFROM TO POST YOUR OWN PROJECT</p>
+      </div>
+    </ng-template>
+</ngb-carousel>
+<div class="div-fluid">
+    <ul class="list-inline inline-block text-center pt-3">
+        <li class="list-inline-item ml-5 pt-3"><button type="button" class="btn btn-warning">PROJECT</button></li>
+        <li class="list-inline-item ml-5 pt-3"><button type="button" class="btn btn-warning">TRAINING</button></li>
+        <li class="list-inline-item ml-5 pt-3"><button type="button" class="btn btn-warning"><a class="text-dark" routerLink="/internship">INTERNSHIP</a></button></li>
+    </ul>
+</div>
+
+  <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;" onmouseover="over()">
+                <img src="../assets/pic4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <button type="button" class="btn btn-dark">DESIGN</button>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card" style="width: 18rem;">
+                  <img src="../assets/pic1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <button type="button" class="btn btn-dark">MARKETING</button>
+                  </div>
+              </div>
+          </div>
+        <div class="col-md-4">
+              <div class="card" style="width: 18rem;">
+                  <img src="../assets/pic2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <button type="button" class="btn btn-dark">SOFTWARE</button>
+                  </div>
+              </div>
+        </div>
+      <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+              <img src="../assets/pic2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <button type="button" class="btn btn-dark">MEDIA</button>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+              <img src="../assets/pic2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <button type="button" class="btn btn-dark">FINIANCE</button>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img src="../assets/pic2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <button type="button" class="btn btn-dark">BPO</button>
+            </div>
+        </div>
+      </div>
+  </div>
+  <div class="jumbotron text-center">
+        <h1>About-Us</h1>
+        <p>We Provide Training & Internship</p> 
+  </div>
+  <div class="container">
+    <div class="row">
+          <div class="col-sm-4">
+              <h3 class="text-center"><img src="./assets/program.png"  class="img-fluid" alt="png"></h3>
+              <h3 class="text-center">Create</h3>
+              <p>We build the best experience for ur Community-as a team</p>
+          </div>
+          <div class="col-sm-4">
+            <h3 class="text-center"><img src="./assets/question.png"  class="img-fluid" alt="png"></h3>
+            <h3 class="text-center">Learn</h3>
+            <p>We look inside and outside for inspiraction and learning</p>
+          </div>
+          <div class="col-sm-4">
+            <h3 class="text-center"><img src="./assets/play.png"  class="img-fluid" alt="png"></h3>
+            <h3 class="text-center">Play</h3>
+            <p>Life is what happeness when you are busy working.We make sure to enjoy it.</p>
+          </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-primary max-width:100%">
+    <div class="row text-center">
+      <div class="col p-4"><h1>Our Services</h1>
+        <p>No global movement springs from individual .it takes an entire team United behind  something big.Toghether,we laugh a lot,we brainstrome
+          nonstop ,we use hundred  of post-it's weeks.
+        </p>
+    </div>
+    </div>
+  </div>
+
